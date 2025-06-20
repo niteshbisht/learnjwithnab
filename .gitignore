@@ -4,3 +4,4 @@ temporaldemo/build/*
 messaging/mqproducerconsumer/build/*
 messaging/mqproducerconsumer/.gradle/*
 messaging/mqproducerconsumer/.idea/*
+temporaldemo/wfclient/build/*
