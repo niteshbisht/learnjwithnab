@@ -1,0 +1,6 @@
+/temporaldemo/.gradle/*
+/temporaldemo/.idea/*
+/temporaldemo/build/*
+/messaging/mqproducerconsumer/build/*
+/messaging/mqproducerconsumer/.gradle/*
+/messaging/mqproducerconsumer/.idea/*
