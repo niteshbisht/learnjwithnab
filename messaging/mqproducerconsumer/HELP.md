@@ -1,24 +1,18 @@
 # Getting Started
 
-### Reference Documentation
-For further reference, please consider the following sections:
+Hello Doston 
 
-* [Official Gradle documentation](https://docs.gradle.org)
-* [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/3.5.0/gradle-plugin)
-* [Create an OCI image](https://docs.spring.io/spring-boot/3.5.0/gradle-plugin/packaging-oci-image.html)
-* [Spring Web](https://docs.spring.io/spring-boot/3.5.0/reference/web/servlet.html)
-* [Spring for Apache ActiveMQ 5](https://docs.spring.io/spring-boot/3.5.0/reference/messaging/jms.html#messaging.jms.activemq)
+aaj hum sikhenge Ek Highly Available system jo ki high volume requests ko 
+process karta hai aur assure karta hai bina kisi downtime k.
 
-### Guides
-The following guides illustrate how to use some features concretely:
+Iske lia hum Active MQ messaging broker ka use karenge.
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
-* [Java Message Service API via Apache ActiveMQ Classic.](https://spring.io/guides/gs/messaging-jms/)
+Humara Aaj ka system ek Spring Rest API hai jo order receive karte hai 
+aur order information ko MQ server p post kr dega.
 
-### Additional Links
-These additional references should also help you:
 
-* [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
+Pehla Step:
+MQ Server Start karte hai 
 
+step1: podman pull apache/activemq-classic
+step2: podman run -d --name activemq -p 8161:8161 -p 61616:61616 apache/activemq-classic

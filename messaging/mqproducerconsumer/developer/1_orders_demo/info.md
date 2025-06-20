@@ -10,7 +10,7 @@
 5. Swagger: for API documentation
 6. Lombok: for reducing boilerplate code getters and setters
 
-## Steps
+## Steps to create the projects
 Step1: Create skeleton project with Spring initializer.
 Step2: Add dependencies in spring initializer project for spring messaging activemq,
         Spring data jpa, lombok and h2 database.
